@@ -509,6 +509,7 @@ function resetText(){
   });
 
   $(".centerer").on("click", function () {
+    document.getElementById('audio').play();
     $card.fadeIn();
     $bgCard.fadeIn();
     $icon.fadeIn();
